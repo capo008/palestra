@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\palestra\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "palestra\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\palestra\\Pages\\Index.cshtml*",
-              "RelativeToolTip": "palestra\\Pages\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\palestra\\Pages\\Index.cshtml",
+              "RelativeToolTip": "palestra\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-10T10:55:23.154Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

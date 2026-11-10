@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("palestra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45b10a8f258f382068e47e09c62bddee10a4fc7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59eb204e27c3d7cfd20548649221f1b84fe1e111")]
 [assembly: System.Reflection.AssemblyProductAttribute("palestra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("palestra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
