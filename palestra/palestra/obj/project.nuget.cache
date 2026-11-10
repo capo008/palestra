@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AyGL8/eyP0s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\palestra\\palestra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}
