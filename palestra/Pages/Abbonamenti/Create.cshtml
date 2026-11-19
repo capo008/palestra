@@ -1,0 +1,42 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Nuovo abbonamento";
+}
+
+<h1 class="h3 mb-3">Nuovo abbonamento</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Input.IdIscritto" class="form-label"></label>
+        <select asp-for="Input.IdIscritto" asp-items="Model.Iscritti" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.IdIscritto" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.Tipo" class="form-label"></label>
+        <select asp-for="Input.Tipo" class="form-select">
+            <option value="">— seleziona —</option>
+            <option value="mensile">Mensile (1 mese)</option>
+            <option value="trimestrale">Trimestrale (3 mesi)</option>
+            <option value="annuale">Annuale (12 mesi)</option>
+        </select>
+        <span asp-validation-for="Input.Tipo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.DataInizio" class="form-label"></label>
+        <input asp-for="Input.DataInizio" class="form-control" />
+        <span asp-validation-for="Input.DataInizio" class="text-danger"></span>
+    </div>
+            <button type="submit" class="btn btn-primary">Salva</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

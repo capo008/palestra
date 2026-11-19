@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\",
+  "WorkspaceRootPath": "C:\\Users\\capoferri.22061\\Desktop\\palestra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8449983-3554-4D9D-8D1D-6095BB1719AF}|palestra\\palestra.csproj|c:\\users\\capoferri.22061\\documents\\github\\palestra\\palestra\\palestra\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B8449983-3554-4D9D-8D1D-6095BB1719AF}|palestra\\palestra.csproj|solutionrelative:palestra\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{685290D0-A8E7-4D34-A909-65B4D05921F7}|palestra.csproj|c:\\users\\capoferri.22061\\desktop\\palestra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{685290D0-A8E7-4D34-A909-65B4D05921F7}|palestra.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\palestra\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "palestra\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\capoferri.22061\\Documents\\GitHub\\palestra\\palestra\\palestra\\Pages\\Index.cshtml",
-              "RelativeToolTip": "palestra\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-10T10:55:23.154Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\capoferri.22061\\Desktop\\palestra\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\capoferri.22061\\Desktop\\palestra\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-19T11:39:05.106Z",
               "EditorCaption": ""
             }
           ]

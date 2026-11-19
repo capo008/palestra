@@ -1,0 +1,53 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Nuova lezione";
+}
+
+<h1 class="h3 mb-3">Nuova lezione</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Input.IdCorso" class="form-label"></label>
+        <select asp-for="Input.IdCorso" asp-items="Model.Corsi" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.IdCorso" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.IdSala" class="form-label"></label>
+        <select asp-for="Input.IdSala" asp-items="Model.Sale" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.IdSala" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.IdIstruttore" class="form-label"></label>
+        <select asp-for="Input.IdIstruttore" asp-items="Model.Istruttori" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.IdIstruttore" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.GiornoSettimana" class="form-label"></label>
+        <select asp-for="Input.GiornoSettimana" asp-items="Model.Giorni" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.GiornoSettimana" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.OraInizio" class="form-label"></label>
+        <input asp-for="Input.OraInizio" class="form-control" type="time" />
+        <span asp-validation-for="Input.OraInizio" class="text-danger"></span>
+    </div>
+            <button type="submit" class="btn btn-primary">Salva</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

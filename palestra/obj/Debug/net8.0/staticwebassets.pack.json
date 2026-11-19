@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\capoferri.22061\\Desktop\\palestra\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\palestra.bundle.scp.css",
+      "PackagePath": "staticwebassets\\palestra.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\capoferri.22061\\Desktop\\palestra\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.palestra.props",
+      "PackagePath": "build\\palestra.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.palestra.props",
+      "PackagePath": "buildMultiTargeting\\palestra.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.palestra.props",
+      "PackagePath": "buildTransitive\\palestra.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.palestra.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

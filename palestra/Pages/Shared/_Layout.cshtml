@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - palestra</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/palestra.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark app-navbar">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <span class="brand-mark" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M3 9h2v6H3V9Zm3-2h2v10H6V7Zm3 4h6v2H9v-2Zm9-4h2v10h-2V7Zm3 2h2v6h-2V9Z" transform="translate(-1 0)"/></svg>
+                    </span>
+                    palestra
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inserisci</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-page="/Prenotazioni/Create">Prenotazione</a></li>
+                                <li><a class="dropdown-item" asp-page="/Iscritti/Create">Iscritto</a></li>
+                                <li><a class="dropdown-item" asp-page="/Abbonamenti/Create">Abbonamento</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" asp-page="/Corsi/Create">Corso</a></li>
+                                <li><a class="dropdown-item" asp-page="/Sale/Create">Sala</a></li>
+                                <li><a class="dropdown-item" asp-page="/Istruttori/Create">Istruttore</a></li>
+                                <li><a class="dropdown-item" asp-page="/Lezioni/Create">Lezione</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-5">
+            @if (TempData["Ok"] is string okMessage)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @okMessage
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - palestra - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

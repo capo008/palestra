@@ -1,0 +1,39 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Nuova prenotazione";
+}
+
+<h1 class="h3 mb-3">Nuova prenotazione</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Input.IdIscritto" class="form-label"></label>
+        <select asp-for="Input.IdIscritto" asp-items="Model.Iscritti" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.IdIscritto" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.IdLezione" class="form-label"></label>
+        <select asp-for="Input.IdLezione" asp-items="Model.Lezioni" class="form-select">
+            <option value="">— seleziona —</option>
+        </select>
+        <span asp-validation-for="Input.IdLezione" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Input.DataLezione" class="form-label"></label>
+        <input asp-for="Input.DataLezione" class="form-control" />
+        <span asp-validation-for="Input.DataLezione" class="text-danger"></span>
+    </div>
+            <button type="submit" class="btn btn-primary">Prenota</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

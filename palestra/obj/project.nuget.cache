@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CDxlF8NS2RI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\capoferri.22061\\Desktop\\palestra\\palestra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.15\\microsoft.extensions.dependencyinjection.abstractions.10.0.15.nupkg.sha512",
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.15\\microsoft.extensions.logging.abstractions.10.0.15.nupkg.sha512",
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512",
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\mysqlconnector\\3.0.0\\mysqlconnector.3.0.0.nupkg.sha512",
+    "C:\\Users\\capoferri.22061\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.15\\system.diagnostics.diagnosticsource.10.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,60 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero">
+    <h1>Gestione palestra</h1>
+    <p>Iscritti, abbonamenti, corsi e prenotazioni in un unico posto. Scegli cosa vuoi registrare.</p>
+</section>
+
+<div class="section-title">Reception</div>
+<div class="row g-3">
+    <div class="col-md-6 col-lg-4">
+        <a class="tile" asp-page="/Prenotazioni/Create">
+            <span class="tile-icon">📅</span>
+            <span><span class="tile-title d-block">Nuova prenotazione</span><span class="tile-text">Prenota un posto in una lezione</span></span>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-4">
+        <a class="tile" asp-page="/Iscritti/Create">
+            <span class="tile-icon">🧑</span>
+            <span><span class="tile-title d-block">Nuovo iscritto</span><span class="tile-text">Registra un nuovo socio</span></span>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-4">
+        <a class="tile" asp-page="/Abbonamenti/Create">
+            <span class="tile-icon">🎟️</span>
+            <span><span class="tile-title d-block">Nuovo abbonamento</span><span class="tile-text">Mensile, trimestrale o annuale</span></span>
+        </a>
+    </div>
+</div>
+
+<div class="section-title">Programmazione</div>
+<div class="row g-3">
+    <div class="col-md-6 col-lg-3">
+        <a class="tile" asp-page="/Corsi/Create">
+            <span class="tile-icon">🧘</span>
+            <span><span class="tile-title d-block">Corsi</span><span class="tile-text">Yoga, pilates, spinning…</span></span>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <a class="tile" asp-page="/Lezioni/Create">
+            <span class="tile-icon">🕒</span>
+            <span><span class="tile-title d-block">Lezioni</span><span class="tile-text">Giorno, ora, sala, istruttore</span></span>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <a class="tile" asp-page="/Sale/Create">
+            <span class="tile-icon">🏋️</span>
+            <span><span class="tile-title d-block">Sale</span><span class="tile-text">Spazi e posti disponibili</span></span>
+        </a>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <a class="tile" asp-page="/Istruttori/Create">
+            <span class="tile-icon">💪</span>
+            <span><span class="tile-title d-block">Istruttori</span><span class="tile-text">Staff della palestra</span></span>
+        </a>
+    </div>
+</div>
